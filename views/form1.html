@@ -6,7 +6,7 @@
 </head>
 <body>
 <form action="#" method="post">
-<label for="animal">Animal Type</label>
+<label for="animal">Animal Type</label><br>
     <input type="text" name="animal" id="animal" value="{{ @type }}">
     <check if="{{ isset(@errors['animal']) }}">
         <span>{{ @errors['animal'] }}</span>
