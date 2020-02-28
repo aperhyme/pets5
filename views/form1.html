@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pets</title>
+</head>
+<body>
+<form action="#" method="post">
+<label for="animal">Animal Type</label>
+    <input type="text" name="animal" id="animal" value="{{ @type }}">
+    <check if="{{ isset(@errors['animal']) }}">
+        <span>{{ @errors['animal'] }}</span>
+    </check>
+
+    <button type="submit">Next>></button>
+</form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Pets</title>
+</head>
+<body>
+<h1>View Pets</h1>
+<ul>
+    <repeat group="{{ @pets }}" value="{{ @currPet }}">
+        <li>{{ @currPet['name'] }} - {{ @currPet['color'] }} {{ @currPet['type'] }}</li>
+    </repeat>
+</ul>
+</body>
+</html>

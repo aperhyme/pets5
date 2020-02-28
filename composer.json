@@ -1,0 +1,15 @@
+{
+"name" : "agrigorenko/IT328/Pets5",
+"authors" : [
+{
+"name" : "Alex Grigorenko",
+"email" : "Agrigorenko@mail.greenriver.edu"
+}
+],
+"require" : {
+"bcosca/fatfree-core" : "dev-master"
+},
+"autoload": {
+"classmap": ["classes/", "controller/", "model/"]
+}
+}
